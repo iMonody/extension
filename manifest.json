@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Helper+",
+  "version": "0.1.0",
+  "description": "[Experimental Version]",
+ 
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["https://clasroom.google.com/*"]
+  }]
+ 
+}
